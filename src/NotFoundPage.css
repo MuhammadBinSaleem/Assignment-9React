@@ -1,0 +1,21 @@
+/* NotFoundPage.css */
+
+.not-found-container {
+    text-align: center;
+   height: 100%;
+
+   
+    width: 100%;
+    
+  }
+  
+  h1 {
+    font-size: 4em;
+    color: #4caf50; /* Green color */
+  }
+  
+  p {
+    font-size: 1.5em;
+    color: #ff6347; /* Red color */
+  }
+  

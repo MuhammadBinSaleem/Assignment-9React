@@ -1,0 +1,280 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  background-color: #4caf50; /* Green color */
+  color: white; /* Text color */
+  padding: 10px; /* Padding for better appearance */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+  margin-top: 20px;
+}
+
+
+
+
+label
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: space-around;
+  width: 20%;
+}
+
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #030081;
+  color: white;
+  border: none;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+@keyframes ldio-42ac0we8nps {
+  0% { opacity: 1 }
+  100% { opacity: 0 }
+}
+.ldio-42ac0we8nps div {
+  left: 94px;
+  top: 48px;
+  position: absolute;
+  animation: ldio-42ac0we8nps linear 1s infinite;
+  background: #1d0e0b;
+  width: 12px;
+  height: 24px;
+  border-radius: 6px / 12px;
+  transform-origin: 6px 52px;
+}.ldio-42ac0we8nps div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -0.9166666666666666s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -0.8333333333333334s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.75s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.6666666666666666s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.5833333333333334s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.5s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.4166666666666667s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.3333333333333333s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.25s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.16666666666666666s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.08333333333333333s;
+  background: #1d0e0b;
+}.ldio-42ac0we8nps div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+  background: #1d0e0b;
+}
+.loadingio-spinner-spinner-qqnev166oao {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  
+}
+.ldio-42ac0we8nps {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-42ac0we8nps div { box-sizing: content-box; }
+
+/* styles.css */
+
+.Create {
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  width: 10%;
+  margin-left: 85%;
+}
+
+.Read {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+}
+
+.Update {
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+}
+
+.Delete {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+
+/* Optional: Add hover effects for better user experience */
+.Create:hover, .Read:hover, .Update:hover, .Delete:hover {
+  opacity: 0.8;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.button{
+  font-size: 18px; 
+  padding: 15px 30px; 
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  justify-content: right;
+}
+.centered-div
+{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  margin-right: 40px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9; }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+    appearance: none; 
+  }
+
+  h1 {
+    color: #030081; 
+    text-align: center;
+    margin-bottom: 20px;
+   
+  }
+
+  h2 {
+    color: #030081; 
+    text-align: center;
+    margin-bottom: 20px;
+   
+  }
+
+  button.save-button {
+    background-color: #4caf50; 
+    color: white; 
+    padding: 10px 15px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+  }
+  
+  /* Hover effect */
+  button.save-button:hover {
+    background-color: #45a049; 
+  }
